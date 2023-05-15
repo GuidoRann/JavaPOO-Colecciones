@@ -2,8 +2,8 @@ package Entidades;
 
 import java.util.List;
 
-
 public class Alumno {
+
     private String nombre;
     private List<Integer> notas;
 
@@ -11,7 +11,7 @@ public class Alumno {
         this.nombre = nombre;
         this.notas = notas;
     }
-    
+
     public String getNombre() {
         return nombre;
     }
@@ -27,6 +27,5 @@ public class Alumno {
     public void setNotas(List<Integer> notas) {
         this.notas = notas;
     }
-    
-    
+
 }

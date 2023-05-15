@@ -3,7 +3,6 @@ package Main;
 import Entidades.*;
 import Servicios.*;
 import java.util.HashMap;
-
 import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
@@ -97,6 +96,7 @@ public class Main {
         ps.eliminarPais(listaPais);
          */
         //-----------------------------------Ejericicio 6 ------------------------------------------
+        /*
         TiendaServicio ts = new TiendaServicio();
         HashMap<String, Double> tienda = new HashMap<>();
 
@@ -119,6 +119,6 @@ public class Main {
                 default -> System.out.println("No se encontró la opcion");
             }
         } while (op != 6);
-        
+        */
     }
 }

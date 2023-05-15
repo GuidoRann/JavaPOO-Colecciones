@@ -1,6 +1,7 @@
 package Entidades;
 
 public class Pelicula {
+
     private String titulo;
     private String director;
     private double duracion;
@@ -45,5 +46,5 @@ public class Pelicula {
         sb.append('}');
         return sb.toString();
     }
-    
+
 }

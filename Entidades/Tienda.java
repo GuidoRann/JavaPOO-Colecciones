@@ -26,6 +26,5 @@ public class Tienda {
         sb.append('}');
         return sb.toString();
     }
-    
-    
+
 }

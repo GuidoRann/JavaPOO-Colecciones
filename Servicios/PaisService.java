@@ -40,26 +40,26 @@ public class PaisService {
     public void eliminarPais(Set<Pais> p) {
         System.out.println("Ingrese el nombre del país que desea eliminar: ");
         String nombrePais = consola.next();
-        
+
         Pais p1 = new Pais(nombrePais);
         boolean eliminado = false;
-        
+
         Iterator<Pais> it = p.iterator();
 
         while (it.hasNext()) {
             Pais next = it.next();
-            
+
             if (next.getNombre().equalsIgnoreCase(p1.getNombre())) {
                 it.remove();
                 eliminado = true;
                 break;
             }
         }
-        
+
         if (!eliminado) {
             System.out.println("El pais no fue encontrado en el conjunto");
         }
-        
+
         mostraPaices(p);
     }
 }

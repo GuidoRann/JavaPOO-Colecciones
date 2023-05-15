@@ -53,25 +53,25 @@ public class PeliculaService {
             }
         }
     }
-    
-    public void ordenarMayAMen(List<Pelicula> lp){
+
+    public void ordenarMayAMen(List<Pelicula> lp) {
         Collections.sort(lp, (p1, p2) -> Double.compare(p2.getDuracion(), p1.getDuracion()));
         mostrarPeliculas(lp);
     }
-    
-    public void ordenarMenAMay(List<Pelicula> lp){
+
+    public void ordenarMenAMay(List<Pelicula> lp) {
         Collections.sort(lp, (p1, p2) -> Double.compare(p1.getDuracion(), p2.getDuracion()));
         mostrarPeliculas(lp);
     }
-    
-    public void ordenarTitulo(List<Pelicula> lp){
+
+    public void ordenarTitulo(List<Pelicula> lp) {
         Collections.sort(lp, (p1, p2) -> p1.getTitulo().compareTo(p2.getTitulo()));
         mostrarPeliculas(lp);
     }
-    
-    public void ordenarDirector(List<Pelicula> lp){
+
+    public void ordenarDirector(List<Pelicula> lp) {
         Collections.sort(lp, (p1, p2) -> p1.getDirector().compareTo(p2.getDirector()));
         mostrarPeliculas(lp);
     }
-    
+
 }

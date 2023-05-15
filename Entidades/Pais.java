@@ -1,6 +1,7 @@
 package Entidades;
 
 public class Pais {
+
     private String nombre;
 
     public Pais(String nombre) {
