@@ -8,17 +8,16 @@ import java.util.Scanner;
 public class AlumnoService {
 
     Scanner consola = new Scanner(System.in).useDelimiter("\n");
-    List<Integer> notas;
 
-    public List crearAlumnos() {
+    public List<Alumno> crearAlumnos() {
         List<Alumno> listaAlumnos = new ArrayList();
         String exit;
-        notas = new ArrayList();
 
         do {
             System.out.println("Ingrese el nombre del alumno");
             String nom = consola.next();
 
+            List<Integer> notas = new ArrayList();
             for (int i = 0; i < 3; i++) {
                 System.out.println("Ingrese la nota " + (i + 1));
                 int nota = consola.nextInt();

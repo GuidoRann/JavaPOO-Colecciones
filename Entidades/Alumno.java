@@ -28,4 +28,15 @@ public class Alumno {
         this.notas = notas;
     }
 
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Alumno{");
+        sb.append("nombre=").append(nombre);
+        sb.append(", notas=").append(notas);
+        sb.append('}');
+        return sb.toString();
+    }
+
+    
 }
