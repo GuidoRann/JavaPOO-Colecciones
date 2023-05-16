@@ -36,7 +36,5 @@ public class Alumno {
         sb.append(", notas=").append(notas);
         sb.append('}');
         return sb.toString();
-    }
-
-    
+    }  
 }

@@ -56,12 +56,12 @@ public class Main {
         nombres.forEach((e) -> System.out.println(e));
          */
         //-----------------------------------Ejericicio 3 ------------------------------------------
-        
+        /*
         AlumnoService as = new AlumnoService();
         List listaAl = as.crearAlumnos();
         
-        as.notaFinal(listaAl);       
-
+        as.notaFinal(listaAl);
+        */
         //-----------------------------------Ejericicio 4 ------------------------------------------
         /*
         PeliculaService ps = new PeliculaService();
