@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class Main {
 
@@ -87,13 +88,13 @@ public class Main {
         ps.ordenarDirector(listaPelis);
          */
         //-----------------------------------Ejericicio 5 ------------------------------------------
-        /*
+        
         PaisService ps = new PaisService();
         
-        Set<Pais> listaPais = ps.crearPais();
+        TreeSet<Pais> lista = ps.crearPais();
         
-        ps.eliminarPais(listaPais);
-         */
+        ps.eliminarPais(lista);
+        
         //-----------------------------------Ejericicio 6 ------------------------------------------
         /*
         TiendaServicio ts = new TiendaServicio();
